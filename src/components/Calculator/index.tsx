@@ -15,7 +15,7 @@ import { Rates } from "@/lib/types";
 
 function Calculator() {
   const [baseCurrency, setBaseCurrency] = useState("USD");
-  const [targetCurrency, setTargetCurrency] = useState("INR");
+  const [targetCurrency, setTargetCurrency] = useState("EUR");
 
   const [baseAmount, setBaseAmount] = useState("");
   const [targetAmount, setTargetAmount] = useState("");
